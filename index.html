@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(40, 28, 118); 
+            color: #fff;
+           
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            margin: 60px;
+            
+        
+     
+        }
+
+      .left-menu{
+        margin-left: 100px;
+        font-size: 30px;
+       
+      }
+
+      .right-menu{
+        font-size: 20px;
+      }
+
+        .purch{
+            background-color: rgb(237, 86, 111);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 40%;
+        }
+
+        nav a  {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 20px;
+            
+     
+           
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+        }
+
+        .left-side {
+            width: 400px;
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 120px;
+        }
+
+
+        h1 {
+            font-size: 50px;
+            font-weight: 10px;
+        }
+
+        .write {
+            font-size: 20px; 
+            font-weight: 4px;
+        }
+
+        .click{
+            background-color: rgb(237, 86, 111);
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 40%;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+       
+        .right-side {
+            width: 400px;
+            padding: 20px;
+            border-radius: 25px;
+            border: none;
+            margin-bottom: 120px;     
+        }
+
+       
+
+    .form-container {
+    background-color: #fff;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 12px;
+    
+}
+
+          .form-container h2 {
+            font-size: 18px;
+            color: #00008B;
+            font-size: 40px;
+        }
+
+        .email-group {
+            margin: 10px 0;
+            margin-right: 0px 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+        }
+
+        #email::placeholder {
+            font-size: 16px; 
+        }
+
+        #password::placeholder {
+            font-size: 16px; 
+        }
+
+        .checkbox{
+            display: flex;
+            margin: 10px ;
+            color: rgb(192, 190, 190);
+            margin: 20px;
+            margin-left: 40px;
+            font-size: 16px;
+            
+        }
+
+        .button {
+            background-color: #00008B;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 80%;
+        }
+
+       
+
+        .social-login {
+            margin-top: 20px;
+        }
+
+         .lines{
+            content:" ";
+            color:  rgb(174, 169, 169);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            column-gap: 1rem;
+          
+        }  
+
+        .lines::before { 
+            content: " ";
+            height: 2px;
+            background-color: rgb(225, 223, 223);
+            display: block;
+            width: 120px;
+            height: 2px;
+            margin-left: 50px;
+        }
+
+        .lines::after{
+            content: " ";
+            height: 2px;
+            background-color: rgb(225, 223, 223);
+            display: block;
+            width: 120px;
+            height: 2px;
+            margin-right: 60px;
+        }
+
+        .social-login a {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+        
+       .sign{
+        display: flex;
+        margin-left: 80px;
+       
+       }
+
+
+     p {
+        color: rgb(171, 168, 168);
+        font-size: 16px;
+       }
+
+.lilsign{
+   color: teal;
+   font-size: 16px;
+   margin-left: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="left-menu" >
+            <a href="#">Startup 3</a>
+        </div>
+        <div class="right-menu">
+            <a href="#" style="color: #595959;">Overview</a>
+            <a href="#">Prices</a>
+            <a href="#">Blog</a>
+            <a href="#">Feedback</a>
+            <a class="purch" href="#">Purchase</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-side">
+            <h1>Generate Awesome Web Pages</h1>
+            <p class="write">The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks.</p>
+            <button class="click" type="submit">Learn more</button>
+        </div>
+        <div class="right-side">
+            <div class="form-container">
+                <h2>Sign Up Now</h2>
+                <form>
+                    <div class="email-group">
+                        <label for="email">Your email</label>
+                        <input type="text" id="email" placeholder="Your email" required>
+                       
+                    </div>
+                    <div class="password-group">
+                        <label for="password"> Your password </label>
+                        <input type="password" id="password" placeholder="Your password" required>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the Terms of Service.</label>
+                    </div>
+
+                    <button class="button" type="submit">Sign In</button>
+                </form>
+                <div class="social-login">
+                 
+                    <p class="lines">or</p>
+                    <button class="button" type="submit" style="background-color: rgb(83, 181, 220);">Login Via Twiter</button>
+                </div>
+            <div class="sign">
+            <p>Do you have an Account?</p>  
+            <p class="lilsign">Sign In</p>
+         </div>
+    </div>
+</body>
+</html>
